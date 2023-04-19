@@ -1,0 +1,255 @@
+
+body{
+    margin:0px;
+    padding:0px;
+}
+.nav{
+      background-color: white; 
+      padding-left: 100px; 
+    box-shadow: 0px 300px 0px 800px #EDEDED;  
+}
+.icon{
+     position:absolute;
+    left:84%;
+    top:70px; 
+}
+.one{
+    color: #424242;
+    font: normal normal bold 40px/49px Inter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.two{
+    color:#00A5EC;
+    font: normal normal bold 40px/49px Inter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+button{
+    background-color: #00A5EC;
+    border:5px solid #00A5EC ;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+}
+a{  
+    text-decoration: none;
+    color:black;
+}
+.container{
+    margin-top: 50px;
+padding-left: 100px;
+padding-right: 100px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.box{
+    padding-left :10px; 
+    height: 250px;
+    width: 270px;
+    /* border:1px solid gray ;  */
+    border-radius: 10px;
+    margin-right:20px;
+    margin-bottom: 50px;
+     background-color: white; 
+}
+.box:hover{
+    box-shadow: 0px 0px 5px 5px rgb(168, 167, 167);
+}
+
+#cross{
+    color: dimgrey;
+    text-decoration: line-through;
+}
+h3{
+    color:#00A5EC;  
+    font:normal normal bold 20px Inter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.container2{
+    filter:blur(1.5px);
+    filter:brightness(50%);
+    position: relative;
+}
+.addtask{
+    padding: 10px;
+    height: 160px;
+    width: 300px;
+    font:normal normal bold 15px Inter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color:white;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    position:absolute;
+    top:250px;
+    left:38%;
+}
+.down{
+    height: 31px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #00A5EC;
+    position: relative;
+    top: 45px;
+    right: -179px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+span{
+    color:white;
+}
+.close{
+    position:relative;
+    left: 91%;
+    top: -22px;
+}
+.learn{
+    width: 100%;
+    } 
+.index3_icon{
+    position: relative;
+    left: 54%;
+    top: 14px;
+    width: 200px;
+}
+#bck{
+    color: white;
+    background-color:black;
+    border-radius: 50%;
+    border:5px solid black;
+}
+.back{
+    width: 100px;
+    position: relative;
+    left: 30%;
+    top: -19px;
+}
+.trip:hover{
+    box-shadow: 0px 0px 0px 0px ;
+}
+.trip{
+    position:absolute;
+    top:250px;
+    left:400px;
+   
+}
+.index3_icon:last-child{
+    display: none;
+}
+.container4{
+    filter: blur(2px);
+    filter:brightness(50%);
+}
+
+.additems{
+    padding: 10px;
+    height: 160px;
+    width: 300px;
+    font:normal normal bold 15px Inter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color:white;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    position:relative;
+    bottom:-146px;
+    left:38%;
+}
+
+
+
+/* ***********mobile view */ 
+ @media screen and (min-width:280px) and (max-width:500px){
+    body{
+    padding:0px;
+    margin:0px;
+    /* width: 100vw; */
+    }
+    
+ .nav{
+    padding-left: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+} 
+.one{
+    padding-left: 1px;
+}
+     .icon{
+     left: 43%;
+    top: 56px;
+    } 
+    #adtask{
+      display: none;
+    }
+    .container{
+        box-sizing: border-box;
+        overflow-x: hidden;
+      display:grid;
+      grid-template-columns: 250px;
+      justify-content: space-around;
+      row-gap: 20px;
+    }
+    .box4,.box5{
+        display: none;
+    }
+    .container2{
+        margin: 0px;
+        padding: 0px;
+       box-sizing: border-box;
+    }
+    .addtask{
+        padding: 10px;
+        height: 150px;
+        width: 250px;
+        position: absolute;
+        top:240px;
+        left:76px;
+    }
+    .close{
+     box-sizing: border-box;
+     width: 10px;
+    }
+    .down{
+        height: 31px;
+        width: 100px;
+        position: relative;
+        top: 27px;
+        right: -80px;
+        padding-top: 3px;
+    }
+ .trip{
+    position: absolute;
+    top: 180px;
+    left: 35px;
+} 
+.back{
+    position:absolute;
+    left:10px;
+    top:60px;
+}
+.index3_icon{
+    width: 10px;
+}
+.additems{
+    top: 100px;
+    left:7%
+}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
